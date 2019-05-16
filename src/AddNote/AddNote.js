@@ -21,7 +21,7 @@ class AddNote extends React.Component {
 
         console.log(note)
 
-        fetch(`https://sleepy-meadow-67516.herokuapp.com/api/notes`, {
+        fetch(`https://mysterious-lowlands-98523.herokuapp.com/api/notes/`, {
             method: 'POST',
             body: JSON.stringify(note),
             headers: {
